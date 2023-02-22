@@ -10,7 +10,9 @@
   z-index: 25;
   display: none;
 }
-
+a {
+  text-transform: uppercase;
+}
 .fon-burger-menu.active {
   display: block;
 }
