@@ -694,10 +694,10 @@
     font-weight: 400;
   }
   .img-home {
-    width: 300px;
+    width: 100%;
     position: absolute;
-    top: 400px;
-    right: 20px;
+    top: 150px;
+    right: 0px;
   }
   .home-text {
     margin-top: 80px;
@@ -706,10 +706,13 @@
 
     flex-direction: column;
   }
+  .home {
+    margin-bottom: 100px;
+  }
 
   .home-title {
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
   }
   /* home */
