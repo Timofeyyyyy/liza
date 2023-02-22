@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/preloader.css" />
+    <link rel="stylesheet" href="./style/burger.css" />
+    <link rel="stylesheet" href="./style/adaptiv.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAZUMOVA LIZA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <a href="./index.html" class="nav-link">HOME</a>
+        <a href="./retoch.html" class="nav-link">RETOUCH</a>
+        <a href="./portrait.html" class="nav-link">PORTRAIT</a>
+        <a href="./product.html" class="nav-link">PRODUCT</a>
+      </nav>
+    </div>
+    <!-- content -->
+    <div class="container">
+      <!-- preloader -->
+
+      <div id="page-preloader" class="preloader">
+        <div class="loader"></div>
+      </div>
+      <!-- preloader -->
+      <!-- burger -->
+      <div class="fon-burger-menu"></div>
+      <div id="menu" class="menu">
+        <ul>
+          <li data-action="link">
+            <a data-action="link" class="burger-link" href="./index.html">
+              Home
+            </a>
+          </li>
+
+          <li></li>
+          <li>
+            <a data-action="link" class="burger-link" href="./portfolio.html">
+              Portfolio</a
+            >
+          </li>
+
+          <li>
+            <a data-action="link" class="burger-link" href="./retoch.html"
+              >Retoch
+            </a>
+          </li>
+          <li>
+            <a data-action="link" class="burger-link" href="./product.html"
+              >Product
+            </a>
+          </li>
+          <li>
+            <a data-action="link" class="burger-link" href="./portrait.html"
+              >PORTRAIT
+            </a>
+          </li>
+          <li>
+            <a data-action="link" class="burger-link" href="./contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="burger-contact">
+          <div class="burger-contact"></div>
+
+          <img class="burger-elips" src="./img/Ellipse 25.png" alt="" />
+        </div>
+      </div>
+
+      <div class="block-span">
+        <div id="icon" class="menu-btn">
+          <span id="icon"></span>
+          <span id="icon"></span>
+          <span id="icon"></span>
+        </div>
+      </div>
+      <!-- burger -->
+      <div class="container-home">
+        <div class="home-page-content">
+          <div class="form">
+            <div class="forms">
+              <h1 class="contact-title">
+                Have a question? <br />
+                contact us!
+              </h1>
+              <form action="telegram.php" method="POST">
+                <!-- block 1 -->
+                <div class="input-box">
+                  <p class="p-form">Your name:</p>
+                  <input
+                    name="user_name"
+                    placeholder=""
+                    type="text"
+                    class="form-input"
+                  />
+                </div>
+                <!-- block 1 -->
+                <div class="input-box">
+                  <p class="p-form">Your email:</p>
+                  <input
+                    name="user_email"
+                    placeholder=""
+                    type="text"
+                    class="form-input"
+                  />
+                </div>
+
+                <!-- block 1 -->
+                <div class="input-box">
+                  <p class="p-form">Your massage:</p>
+
+                  <textarea name="user_text" id="" cols="30" rows="10">
+                  </textarea>
+                </div>
+                <div class="centre">
+                  <button class="btn-home" type="">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- photo main -->
+          <div class="img-home-block">
+            <img
+              class="img-home contact-img"
+              src="./img/Снимок экрана 2023-02-22 111118.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/preloader copy.js"></script>
+  <script src="./js/burger.js"></script>
+</html>
