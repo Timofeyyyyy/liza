@@ -5,6 +5,10 @@
   color: #ffff;
 }
 /* general */
+button {
+  font-size: 20px;
+  text-transform: uppercase;
+}
 .four-block-photo-hidden {
   display: none;
 }
@@ -113,11 +117,12 @@ body {
   transition: 0.3s all;
 }
 .styles-card .styles-card-img .img-styles {
+  transition: 0.3s all;
   height: 550px;
   width: 100%;
 }
 .styles-card .styles-card-img .img-styles:hover {
-  filter: blur(2px);
+  transform: scale(1.1);
   height: 550px;
   width: 100%;
 }
@@ -126,17 +131,41 @@ body {
 }
 
 .p-styles {
+  z-index: 5;
   margin-top: 10px;
   font-size: 20px;
   font-weight: 600;
 }
 /* PORTFOLIO */
 .container-gallery {
-  width: 1500px;
+  width: 1400px;
   margin: 0 auto;
 }
 .nav-wrapper {
   padding: 30px 100px;
+  width: 100%;
+  position: fixed;
+  background-color: #1a181965;
+  top: 0;
+  left: 0;
+}
+.email {
+  transition: 0.3s all;
+  width: 50px;
+}
+.email:hover {
+  transform: scale(1.1);
+}
+.content-wrapper {
+  position: relative;
+}
+.content-wrapper .email {
+  position: absolute;
+  right: 200px;
+  top: -10px;
+}
+nav {
+  display: flex;
 }
 .nav-link {
   margin-left: 40px;
@@ -161,6 +190,9 @@ body {
   top: 25px;
   left: 0;
 }
+.gallery {
+  margin-top: 75px;
+}
 .gallery-img {
   border-radius: 20px;
   margin: 5px;
@@ -169,37 +201,38 @@ body {
   display: flex;
 }
 .one {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 580px;
 }
 .gallery-blocks {
   display: flex;
+  margin-left: 30px;
 }
 .two {
-  width: 810px;
+  width: 710px;
 }
 
 .three {
-  width: 650px;
-  height: 900px;
+  width: 620px;
+  height: 840px;
 }
 .four {
   width: 200px;
+  height: 270px;
 }
 /* retoch */
 .two-retoch {
-  width: 740px;
+  width: 640px;
 }
 .four-retoch {
-  width: 480px;
+  width: 425px;
 }
 .four-block-retoch-hidden {
-  opacity: 0;
-  visibility: hidden;
+  display: none;
 }
 .four-block-retoch {
+  padding: 0px 30px;
   display: flex;
-  justify-content: space-between;
 }
 .gallery-column {
   display: flex;
@@ -214,22 +247,22 @@ body {
   justify-content: space-between;
 }
 .two-port {
-  width: 350px;
+  width: 320px;
 }
 .main-port-img {
-  width: 770px;
-  height: 1060px;
+  width: 600px;
+  height: 970px;
 }
 .four-port-first {
-  width: 1030px;
-  height: 700px;
+  width: 930px;
+  height: 500px;
 }
 .four-port {
-  width: 450px;
+  width: 350px;
 }
 /* prod */
 .one-prod {
-  width: 400px;
+  width: 320px;
 }
 .two-prod {
   width: 670px;
@@ -251,6 +284,7 @@ textarea {
   z-index: 5;
   width: 400px;
   margin-top: 100px;
+  margin-left: 100px;
 }
 .form-input {
   transition: 0.1s all;

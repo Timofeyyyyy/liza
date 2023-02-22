@@ -14,7 +14,7 @@
   }
   /* portfolio */
   .container-gallery {
-    width: 1200px;
+    width: 1150px;
     margin: 0 auto;
   }
   .one {
@@ -33,17 +33,17 @@
   }
   /* retoch */
   .two-retoch {
-    width: 570px;
+    width: 530px;
   }
   .four-retoch {
-    width: 380px;
+    width: 350px;
   }
   /* PORTRAIT */
   .two-port {
     width: 250px;
   }
   .main-port-img {
-    width: 570px;
+    width: 530px;
     height: 760px;
   }
   .four-port-first {
@@ -55,10 +55,10 @@
   }
   /* poduct */
   .one-prod {
-    width: 300px;
+    width: 270px;
   }
   .two-prod {
-    width: 550px;
+    width: 520px;
   }
   /* contact */
   .contact-img {
@@ -92,14 +92,15 @@
   }
   .three {
     width: 450px;
-    height: 700px;
+    height: 680px;
   }
   .four {
-    width: 100px;
+    width: 150px;
+    height: 170px;
   }
   /* retoch */
   .two-retoch {
-    width: 470px;
+    width: 485px;
   }
   .four-retoch {
     width: 320px;
@@ -109,7 +110,7 @@
     width: 260px;
   }
   .two-prod {
-    width: 500px;
+    width: 480px;
   }
   /* contact */
   .contact-img {
@@ -174,14 +175,14 @@
     width: 440px;
   }
   .four-retoch {
-    width: 280px;
+    width: 290px;
   }
   /* PORTRAIT */
   .two-port {
     width: 220px;
   }
   .main-port-img {
-    width: 470px;
+    width: 430px;
     height: 680px;
   }
   .four-port-first {
@@ -252,7 +253,7 @@
   }
   .three {
     width: 450px;
-    height: 600px;
+    height: 540px;
   }
   .four {
     width: 120px;
@@ -268,7 +269,7 @@
     width: 400px;
   }
   .four-retoch {
-    width: 240px;
+    width: 260px;
   }
   /* PORTRAIT */
   .two-port {
@@ -433,10 +434,17 @@
   }
   /* poduct */
   .one-prod {
-    width: 350px;
+    width: 200px;
   }
   .two-prod {
-    width: 350px;
+    width: 300px;
+  }
+  .forms {
+    position: relative;
+    z-index: 5;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 0;
   }
 }
 @media (max-width: 800px) {
@@ -520,6 +528,13 @@
     height: 250px;
   }
   .four-port {
+    width: 350px;
+  }
+  /* poduct */
+  .one-prod {
+    width: 350px;
+  }
+  .two-prod {
     width: 350px;
   }
   /* contact */
@@ -700,7 +715,7 @@
   .contact-img {
     width: 100%;
     right: 0px;
-    top: 100px;
+    top: 0;
   }
 }
 
