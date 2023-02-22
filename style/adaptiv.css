@@ -581,6 +581,7 @@
   }
   .four {
     width: 100px;
+    height: 150px;
   }
   .four-block-photo-hidden {
     display: block;
@@ -653,6 +654,10 @@
     width: 350px;
     right: 0px;
     top: 100px;
+  }
+  .gallery-blocks {
+    display: flex;
+    margin-left: 0px;
   }
 }
 @media (max-width: 500px) {
