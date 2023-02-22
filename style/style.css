@@ -193,6 +193,7 @@ nav {
 .gallery {
   margin-top: 75px;
 }
+
 .gallery-img {
   border-radius: 20px;
   margin: 5px;
@@ -241,6 +242,7 @@ nav {
 /* port */
 .four-block-port {
   display: flex;
+  padding: 0px 30px;
 }
 .gallery-blocks-port {
   display: flex;
@@ -254,11 +256,12 @@ nav {
   height: 970px;
 }
 .four-port-first {
-  width: 930px;
+  width: 880px;
   height: 500px;
 }
 .four-port {
-  width: 350px;
+  width: 380px;
+  height: 500px;
 }
 /* prod */
 .one-prod {
